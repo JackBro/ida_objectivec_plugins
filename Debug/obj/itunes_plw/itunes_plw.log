@@ -1,0 +1,28 @@
+﻿Build started 2015/8/3 14:43:45.
+     1>Project "D:\ida_objectivec_plugins\itunes_plw\itunes_plw.vcxproj" on node 3 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+         Creating directory "D:\ida_objectivec_plugins\Debug\obj\itunes_plw\itunes_plw.tlog\".
+     1>InitializeBuildStatus:
+         Creating "D:\ida_objectivec_plugins\Debug\obj\itunes_plw\itunes_plw.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\ida_objectivec_plugins\ /ID:\ida_objectivec_plugins\\thirdparty\ida_sdk\include /ZI /nologo /W3 /WX- /Od /Oy- /D _WINDLL /D _WINDOWS /D __NT__ /D __IDP__ /D MAXSTR=1024 /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\ida_objectivec_plugins\Debug\obj\itunes_plw\\" /Fd"D:\ida_objectivec_plugins\Debug\obj\itunes_plw\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\thirdparty\glog\logging.cc plugin_main.cc
+         plugin_main.cc
+     1>d:\ida_objectivec_plugins\thirdparty\ida_sdk\include\struct.hpp(317): warning C4996: 'set_member_ti': was declared deprecated
+                 d:\ida_objectivec_plugins\thirdparty\ida_sdk\include\struct.hpp(316) : see declaration of 'set_member_ti'
+     1>d:\ida_objectivec_plugins\itunes_plw\plugin_main.cc(57): warning C4244: 'argument' : conversion from 'uint64' to 'uint32', possible loss of data
+     1>d:\ida_objectivec_plugins\itunes_plw\plugin_main.cc(65): warning C4244: 'argument' : conversion from 'uint64' to 'uint32', possible loss of data
+         logging.cc
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ida_objectivec_plugins\Debug\bin\itunes_plw.plw" /INCREMENTAL /NOLOGO /LIBPATH:D:\ida_objectivec_plugins\\thirdparty\ida_sdk\lib\x86_win_vc_32 ida.lib pro.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\ida_objectivec_plugins\Debug\bin\itunes_plw.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\ida_objectivec_plugins\Debug\lib\itunes_plw.lib" /MACHINE:X86 /DLL D:\ida_objectivec_plugins\Debug\obj\itunes_plw\logging.obj
+         D:\ida_objectivec_plugins\Debug\obj\itunes_plw\plugin_main.obj
+            Creating library D:\ida_objectivec_plugins\Debug\lib\itunes_plw.lib and object D:\ida_objectivec_plugins\Debug\lib\itunes_plw.exp
+         itunes_plw.vcxproj -> D:\ida_objectivec_plugins\Debug\bin\itunes_plw.plw
+       FinalizeBuildStatus:
+         Deleting file "D:\ida_objectivec_plugins\Debug\obj\itunes_plw\itunes_plw.tlog\unsuccessfulbuild".
+         Touching "D:\ida_objectivec_plugins\Debug\obj\itunes_plw\itunes_plw.tlog\itunes_plw.lastbuildstate".
+     1>Done Building Project "D:\ida_objectivec_plugins\itunes_plw\itunes_plw.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.23
